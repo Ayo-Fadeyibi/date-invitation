@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sophy's Harry Potter Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hearts-container" id="hearts"></div>
+    <div class="sparkles" id="sparkles"></div>
+    
+    <div class="container">
+        <div class="question-screen" id="questionScreen">
+            <div class="flower">🌸</div>
+            <h1>Hey Jasmine!</h1>
+            <p class="subtitle">I've been wanting to ask you something...</p>
+            
+            <p class="question">
+                Would you like to go on a date with me? 💕
+            </p>
+            
+            <div class="buttons">
+                <button class="btn btn-yes" onclick="handleYes()">Yes! 😊</button>
+                <button class="btn btn-no" id="noBtn" onclick="handleNo()">No</button>
+            </div>
+        </div>
+        
+        <div class="success-message" id="successMessage">
+            <div class="celebration">🎉💕🎊</div>
+            <p class="message-text">Yay! You made my day! 🥰</p>
+            <div class="details">
+                I can't wait to spend time with you!<br>
+                I'll message you soon to plan something special ✨<br>
+                <br>
+                Get ready for an amazing time! 💖
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
